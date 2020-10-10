@@ -34,5 +34,6 @@ nb_classifier = MultinomialNB()
 
 nb_classifier.fit(train_counts,train_labels)
 
+nb_classifier.score(test_counts,test_labels)
+
 nb_predictions = nb_classifier.predict(test_counts)
-print(nb_predictions)
