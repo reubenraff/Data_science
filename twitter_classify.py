@@ -1,3 +1,9 @@
+'''
+implememnts a naive bayes classifier to classify between UK-English, US-English and French tweets. The data is taken from json files from tweets I downloaded online
+'''
+
+
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
